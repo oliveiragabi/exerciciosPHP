@@ -2,13 +2,13 @@
 
 // criando classe para comandos select, update e etc
 
-	class Sql extends PDO
+	class sql extends PDO
 	{
 		private $conn;
 
 		public function __construct(){
 
-			$this->conn = new PDO("mysql:dbname=dbGabi;host=192.168.14.224", "usr_teste", "1234"));
+			$this->conn = new PDO("mysql:dbname=dbGabi;port=3306;host=192.168.14.224", "usr_teste", "1234");
 		}
 
 		
@@ -39,7 +39,7 @@
 		}
 
 
-		public function select($rawQuery, $params = array())::array
+		public function select($rawQuery, $params = array()):array
 		{
 			$stmt = $this->query($rawQuery, $params);
 
