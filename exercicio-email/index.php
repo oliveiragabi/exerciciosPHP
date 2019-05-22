@@ -33,7 +33,7 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "gabrielleolives1@gmail.com";
+$mail->Username = "-";
 
 //Password to use for SMTP authentication
 $mail->Password = "-";
