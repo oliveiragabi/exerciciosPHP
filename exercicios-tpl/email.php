@@ -55,19 +55,19 @@
 	$mail->SMTPAuth = true;
 
 	//Username to use for SMTP authentication - use full email address for gmail
-	$mail->Username = "gabrielleolives1@gmail.com";
+	$mail->Username = "-";
 
 	//Password to use for SMTP authentication
-	$mail->Password = "20002801";
+	$mail->Password = "-";
 
 	//Set who the message is to be sent from
-	$mail->setFrom('gabrielleolives1@gmail.com', 'Curso de php');
+	$mail->setFrom('-', 'Curso de php');
 
 	//Set an alternative reply-to address
 	//$mail->addReplyTo('replyto@example.com', 'First Last');
 
 	//Set who the message is to be sent to
-	$mail->addAddress('gabikazsouza@gmail.com', 'Gabi');
+	$mail->addAddress('-', 'Gabi');
 
 	//Set the subject line
 	$mail->Subject = 'Testando a classe PHPMailer com Gmail';
