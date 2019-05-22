@@ -1,0 +1,16 @@
+{
+    "name": "nido/composer",
+    "description": "Curso de php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gabi Souza",
+            "email": "gabrielleolives1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    
+    "require": { 
+    	"monolog/monolog" : "1.0.*"
+    }
+}
